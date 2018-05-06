@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense list item with expense 1`] = `
+<React.Fragment>
+  <NavLink
+    activeClassName="active"
+    ariaCurrent="true"
+    to="/edit/2"
+  >
+    <h3>
+      Hot
+    </h3>
+  </NavLink>
+  <p>
+    3
+    -
+    -345600000
+  </p>
+</React.Fragment>
+`;

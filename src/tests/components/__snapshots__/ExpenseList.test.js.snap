@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense list with expenses 1`] = `
+<div>
+  <h1>
+    Expense List
+  </h1>
+  <div
+    key="1"
+  >
+    <Connect(ExpenseListItem)
+      amount={1}
+      createdAt={1}
+      description="Gum"
+      id={1}
+      note="test note"
+    />
+  </div>
+  <div
+    key="2"
+  >
+    <Connect(ExpenseListItem)
+      amount={3}
+      createdAt={-345600000}
+      description="Hot"
+      id={2}
+      note="test note2"
+    />
+  </div>
+  <div
+    key="3"
+  >
+    <Connect(ExpenseListItem)
+      amount={2}
+      createdAt={345600000}
+      description="Puma"
+      id={3}
+      note="test note3"
+    />
+  </div>
+</div>
+`;
