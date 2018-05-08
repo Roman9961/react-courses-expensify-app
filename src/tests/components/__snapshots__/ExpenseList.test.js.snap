@@ -9,7 +9,7 @@ exports[`should render expense list with expenses 1`] = `
     key="1"
   >
     <Connect(ExpenseListItem)
-      amount={1}
+      amount={1036}
       createdAt={1}
       description="Gum"
       id={1}
@@ -31,7 +31,7 @@ exports[`should render expense list with expenses 1`] = `
     key="3"
   >
     <Connect(ExpenseListItem)
-      amount={2}
+      amount={125}
       createdAt={345600000}
       description="Puma"
       id={3}

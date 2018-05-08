@@ -4,7 +4,7 @@ export const expenses = [{
     id:1,
     description: 'Gum',
     note: 'test note',
-    amount: 1,
+    amount: 1036,
     createdAt: 1
 },{
     id:2,
@@ -16,6 +16,6 @@ export const expenses = [{
     id:3,
     description: 'Puma',
     note: 'test note3',
-    amount: 2,
+    amount: 125,
     createdAt: moment(0).add(4, 'days').valueOf()
 }];
