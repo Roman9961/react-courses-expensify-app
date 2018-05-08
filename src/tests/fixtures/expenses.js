@@ -10,7 +10,7 @@ export const expenses = [{
     id:2,
     description: 'Hot',
     note: 'test note2',
-    amount: 3,
+    amount: 300,
     createdAt: moment(0).subtract(4, 'days').valueOf()
 },{
     id:3,
