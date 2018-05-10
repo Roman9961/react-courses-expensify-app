@@ -7,8 +7,8 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env=prod",
     "dev-server": "webpack-dev-server",
-    "test": "jest --config=jest.config.json --watch",
-    "start": "cross-env NODE_ENV=test server/server.js",
+    "test": "cross-env NODE_ENV=test  jest --config=jest.config.json --watch",
+    "start": "server/server.js",
     "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
