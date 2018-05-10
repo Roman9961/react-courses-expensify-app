@@ -2,3 +2,5 @@
 /.idea
 yarn-error.log
 public/dist/
+.env.development
+.env.test
