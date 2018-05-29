@@ -22,7 +22,7 @@ beforeEach((done)=>{
             amount,
             createdAt
         }
-    })
+    });
     database.ref('expenses').set(expensesData).then(()=>done());
 });
 
@@ -69,7 +69,7 @@ test('should setup add expense action object with provided values', ()=>{
     })
 });
 
-test('should add expense to database and store', async (done) => {
+test('should add expense to database and store',  (done) => {
     const store = createMockStore({});
     const expenseData = {
         description: 'Mouse',
@@ -94,7 +94,7 @@ test('should add expense to database and store', async (done) => {
     });
 });
 
-test('should add expense with defaults to database and store', () => {
+test('should add expense with defaults to database and store', (done) => {
     const store = createMockStore({});
     const defaultData = {
             description: '',
@@ -138,6 +138,8 @@ test('should fetch the expenses from firebase', (done)=>{
         done();
     })
 });
+
+
 
 
 

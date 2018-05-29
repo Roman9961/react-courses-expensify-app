@@ -24,11 +24,9 @@ export const startAddExpense = (expenseData = {}) => {
                 id: ref.key,
                 ...expense
             }));
-        }).catch((e)=>{
-
         });
     };
-}
+};
 
 //Remove Expense
 export const removeExpense = ({id} = {}) => ({
