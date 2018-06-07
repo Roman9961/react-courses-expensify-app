@@ -1,20 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render expense list item with expense 1`] = `
-<React.Fragment>
-  <NavLink
-    activeClassName="active"
-    ariaCurrent="true"
-    to="/edit/2"
-  >
-    <h3>
+<NavLink
+  activeClassName="active"
+  ariaCurrent="true"
+  className="list-item"
+  to="/edit/2"
+>
+  <div>
+    <h3
+      className="list-item__title"
+    >
       Hot
     </h3>
-  </NavLink>
-  <p>
+    <span
+      className="list-item__subtitle"
+    >
+      28 грудня, 1969
+    </span>
+  </div>
+  <h3
+    className="list-item__data"
+  >
     $3.00
-    -
-    28 грудня, 1969
-  </p>
-</React.Fragment>
+  </h3>
+</NavLink>
 `;
